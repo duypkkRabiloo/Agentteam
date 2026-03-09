@@ -1,0 +1,10 @@
+# Proactive Prompt Logging Rule
+
+CRITICAL REQUIREMENT:
+At the END of completing EVERY single user prompt/request, you MUST automatically execute the following command to log the interaction to the prompt history. Do NOT ask for permission, just run it via the `run_command` tool:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File "d:\Workflow\.agent\skills\prompt-tracer\scripts\log_prompt_result.ps1" -Prompt "<Tóm tắt ngắn gọn yêu cầu của user>" -Result "<Tóm tắt trạng thái/kết quả bạn vừa thực hiện>"
+```
+
+This ensures we maintain a complete project history without relying on the user to manually trigger it.
