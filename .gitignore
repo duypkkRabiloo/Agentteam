@@ -1,0 +1,11 @@
+# Logs
+*.log
+diagnose_watcher.txt
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment/Secret files
+.env
+*.local

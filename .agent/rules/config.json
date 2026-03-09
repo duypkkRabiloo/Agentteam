@@ -1,0 +1,6 @@
+{
+    "google_chat_webhook_url": "https://chat.googleapis.com/v1/spaces/AAQA_7au6og/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=9uL8bKOPtK-ayCDbhRlIA5u2rvtWsVVCVrtm34Qtqd4",
+    "activity_history_path": "d:\\Workflow\\.agent\\knowledge\\activity_history.md",
+    "prompt_history_path": "d:\\Workflow\\.agent\\knowledge\\prompt_history.md",
+    "task_list_path": "d:\\Workflow\\.agent\\knowledge\\task_list.md"
+}
