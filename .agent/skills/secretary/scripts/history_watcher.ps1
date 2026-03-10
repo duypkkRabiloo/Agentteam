@@ -60,7 +60,7 @@ while ($true) {
                     "Sending to Google Chat: $($NewContent.Substring(0, [Math]::Min(50, $NewContent.Length)))..." | Out-File $LogFile -Append
                     
                     # Manual JSON build
-                    $SafeText = "$($f.Icon) **New $($f.Name) Detected:**\n\n$NewContent"
+                    $SafeText = "[DUYPKK]$($f.Icon) **New $($f.Name) Detected:**\n\n$NewContent"
                     $SafeText = $SafeText.Replace("\", "\\").Replace("`"", "\`"").Replace("`n", "\n").Replace("`r", "")
                     
                     $PayloadString = "{ `"text`": `"$SafeText`" }"

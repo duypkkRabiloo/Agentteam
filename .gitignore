@@ -9,3 +9,6 @@ Thumbs.db
 # Environment/Secret files
 .env
 *.local
+
+# Ignore market research directory
+market_research/

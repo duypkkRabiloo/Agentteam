@@ -7,8 +7,9 @@ This file tracks the actionable tasks for the current project.
 | [ ] | Video Workflow | When creating content, I want an AI-assisted video pipeline so that I can produce videos efficiently. |
 | [x] | Google Chat Setup | When working with the team, I want project activities mirrored in chat so that everyone stays updated. |
 | [ ] | AI Dev Workflow | When developing web apps, I want an AI-assisted Stitch pipeline so that I can deploy faster. |
-| [ ] | NotebookLM | When researching, I want all knowledge synthesized in a notebook so that I can find answers quickly. |
+| [x] | NotebookLM | When researching, I want all knowledge synthesized in a notebook so that I can find answers quickly. |
 | [x] | Git & Versioning | When developing, I want Git integration and versioning so that I can manage code history and releases. |
+| [ ] | Market Research KWSR | When researching, I want a dedicated KWSR for Market Research so that I can organize insights independently. |
 
 ## Detailed Breakdown History
 
@@ -29,9 +30,9 @@ This file tracks the actionable tasks for the current project.
     - [ ] Integrate Antigravity with Stitch for UI generation.
         - **JTBD**: When generating UI, I want Antigravity to communicate with Stitch so that manual coding is minimized.
 4. **Knowledge Synthesis (User)**
-    - [ ] Export current documentation and logs.
+    - [x] Export current documentation and logs.
         - **JTBD**: When preparing for analysis, I want clean data exports so that NotebookLM can process them.
-    - [ ] Import into NotebookLM for centralized knowledge.
+    - [x] Import into NotebookLM for centralized knowledge.
         - **JTBD**: When analyzing the project, I want a central notebook so that I can extract insights easily.
 5. **Git Integration & Versioning (@Antigravity)**
     - [x] Initialize Git repository and configure `.gitignore`.
@@ -43,5 +44,10 @@ This file tracks the actionable tasks for the current project.
 - [ ] **AI-Assisted Video Workflow**: Full setup of User-Antigravity-Doc-Veo pipeline.
 - [x] **Google Chat Synchronization**: @Anh Võ Hoàng to finalize project activity mirroring.
 - [ ] **AI-Assisted Dev Workflow**: @Nguyễn Bắc Hải to finalize Stitch-based web development pipeline.
-- [ ] **Knowledge Management**: Consolidation of research into NotebookLM workspace.
+- [x] **Knowledge Management**: Consolidation of research into NotebookLM workspace.
 - [x] **Git & Versioning**: Initialize Git and setup versioning management in the workspace.
+- [/] **Market Research**: Finalize the independent KWSR structure and initial research documentation.
+    - [x] Initial structure setup.
+    - [x] Business Development skill implementation.
+    - [x] Logistics CEO skill implementation.
+    - [x] Researcher skill implementation.

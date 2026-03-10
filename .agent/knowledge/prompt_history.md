@@ -221,3 +221,59 @@ Detected missing manual log calls. Backfilled missing remote push history and co
 
 **Result**:
 Merged remote origin/main into local master branch (including README.md) and pushed the consolidated master back to GitHub.
+
+---
+### [2026-03-10 10:46:25] Prompt Execution
+**Prompt**:
+> done task notebooklm, tôi đã thực hiện ngoài workspace này
+
+**Result**:
+Updated task_list.md to mark NotebookLM as completed per user request.
+
+---
+### [2026-03-10 10:46:39] Prompt Execution
+**Prompt**:
+> tạo task, thiết lập KWSR để phục vụ cho market research, tạo folder độc lập với KWSR của quản lí lịch sử và task ở trên
+
+**Result**:
+Created independent market_research/ structure with KWSR subfolders and initial templates. Updated global task_list.md.
+
+---
+### [2026-03-10 10:48:06] Prompt Execution
+**Prompt**:
+> thiết lập skill, có kỹ năng như 1 business development để nhận diện thị trường, trend, dòng tiền
+
+**Result**:
+Implemented Business Development skill with Market Recognition, Trend Analysis, and Capital Flow Tracking competencies. Created capital_flow_analysis.md template.
+
+---
+### [2026-03-10 10:50:39] Prompt Execution
+**Prompt**:
+> thiết lập skill, tôi muốn đi sâu vào tìm hiểu ngành logistics, thiết lập skill như ceo của logistics về kiến thức ngành, cách vận hành doanh nghiệp, quy trình nghiệp vụ ngành
+
+**Result**:
+Implemented Logistics CEO skill and established a comprehensive industry knowledge base (Overview, Operations, Processes).
+
+---
+### [2026-03-10 10:53:36] Prompt Execution
+**Prompt**:
+> thiết lập skill, như 1 nhà nghiên cứu, biết cách đọc viết báo cáo khoa học, đo lường, đánh giá
+
+**Result**:
+Implemented Researcher skill with scientific reporting (IMRaD) and measurement/evaluation frameworks. Created scientific_report_template.md and evaluation_framework.md.
+
+---
+### [2026-03-10 10:57:44] Prompt Execution
+**Prompt**:
+> cập nhật data output của google chat
+
+**Result**:
+Updated history_watcher.ps1 to include custom prefix [DUYPKK] in Google Chat notifications.
+
+---
+### [2026-03-10 10:58:38] Prompt Execution
+**Prompt**:
+> test log notification format
+
+**Result**:
+Testing the new [DUYPKK] prefix format for Google Chat.
